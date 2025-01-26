@@ -1,18 +1,22 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main(void) {
-	int X, N, a, b, price = 0;
-	scanf("%d", &X);
-	scanf("%d", &N);
-	for (int i = 0; i < N; i++) {
-		scanf("%d %d", &a, &b);
-		price += a * b;
-	}
-	if (X == price)
-		printf("Yes\n");
-	else
-		printf("No\n");
+int main() {
+    int a, b = 0;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    int c, d, sum = 0;
+    for (int i = 0;i < b;i++) {
+        scanf("%d", &c);
+        scanf("%d", &d);
+        sum += c * d;
+    }
+    if (sum == a) {
+        printf("Yes");
+    }
+    else {
+        printf("No");
+    }
 
-	return 0;
+    return 0;
 }
