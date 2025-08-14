@@ -1,2 +1,2 @@
-# ProblemsSolving
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# c-baekjoon-study
+Practice solutions for BOJ, auto-synced from local submissions with BaekjoonHub.
